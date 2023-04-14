@@ -1,0 +1,117 @@
+body {
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url(img/gym1.jpg);
+    font-family: 'Chivo Mono', monospace;
+
+}
+
+.left {
+    /* border: 2px solid red; */
+    display: inline-block;
+    position: absolute;
+    left: 34px;
+    top: 20px;
+
+
+}
+
+.left img {
+    filter: invert(100%);
+    width: 136px;
+    height: 100px;
+}
+
+.left div {
+    text-align: center;
+    font-size: 30px;
+    line-height: 25px;
+}
+
+.mid {
+    /* border: 2px solid blue; */
+    display: block;
+    width: 50%;
+    margin: 25px auto;
+}
+
+.right {
+    /* border: 2px solid greenyellow; */
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 36px;
+
+}
+
+.navbar {
+    display: inline-block;
+
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a:active {
+    text-decoration: underline;
+    color: grey;
+}
+
+
+.btn {
+    margin: 0px 9px;
+    padding: 4px 14px;
+    background-color: black;
+    color: white;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    font-family: 'Chivo Mono', monospace;
+}
+
+.btn:hover {
+    background-color: grey;
+}
+
+.container {
+    padding: 75px;
+    /* border: 2px solid white; */
+    margin: 126px 80px;
+    width: 30%;
+    border-radius: 27px;
+}
+
+.form-group input {
+    text-align: center;
+    display: block;
+    width: 475px;
+    padding: 7px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 10px;
+    font-family: 'Chivo Mono', monospace;
+    font-size: 20px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 311px;
+    margin: 21px auto;
+}
